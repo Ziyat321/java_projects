@@ -1,0 +1,3 @@
+Иванов Иван, 25 лет, email: ivanov@example.b.c.com
+Петрова Мария, 30 лет, email: maria@example.com
+Сидоров Алексей, 28 лет, email: alex@example.com

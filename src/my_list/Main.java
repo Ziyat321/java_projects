@@ -1,0 +1,126 @@
+package my_list;
+
+import dynamic.DynamicStringArray;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+       /* DynamicStringArray d1 = new DynamicStringArray();
+        d1.add("1");
+        d1.add("2");
+        d1.add("3");
+        d1.add("4");
+        d1.add("5");
+        d1.arrayDem();
+
+        d1.add("6");
+        d1.add("7");
+        d1.arrayDem();
+
+        d1.remove(2);
+        d1.arrayDem();
+        d1.remove(0);
+        d1.arrayDem();
+
+        d1.addToPos(1, "aaa");
+        d1.arrayDem();
+        d1.addToPos(5, "bbb");
+        d1.arrayDem();
+        d1.addToPos(7, "ccc");
+        d1.arrayDem();
+        d1.addToPos(0, "ddd");
+        d1.arrayDem();
+        d1.addToPos(5,"eee");
+        d1.arrayDem();
+        d1.addToPos(0, "fff");
+        d1.arrayDem();
+
+        System.out.println(d1.contains("aaa"));
+        System.out.println(d1.contains("abc"));
+
+        d1.add("aaa");
+        d1.arrayDem();
+
+        System.out.println(d1.indexOf("aaa"));
+        System.out.println(d1.lastIndexOf("aaa"));
+        System.out.println(d1.lastIndexOf("abc"));*/
+
+      /*  DynamicStringArray array1 = new DynamicStringArray(); // 1 Task
+        array1.add("a");
+        array1.add("b");
+        array1.add("a");
+        array1.add("a");
+        array1.add("c");
+        array1.add("a");
+        array1.add("a");
+        array1.add("d");
+
+        array1.arrayDem();
+
+        for(int i = 0; i < array1.size(); i++){
+            if(array1.get(i).equals("a")){
+                array1.remove(i);
+                i--;
+            }
+        }
+
+        array1.arrayDem();*/
+        /*MyList array1 = new MyArrayList(); // 2 Task
+        array1.add("a");
+        array1.add("b");
+        array1.add("a");
+        array1.add("a");
+        array1.add("c");
+        array1.add("a");
+        array1.add("a");
+        array1.add("d");
+
+        System.out.println(array1.toString() + "\n");*/
+
+        /*MyList array2 = new MyArrayList();
+        array2.add("a");
+        array2.add("b");*/
+
+        /*for(int i = 0; i < array2.size(); i++){
+            for(int j = 0; j < array1.size(); j++){
+                if(array1.get(j).equals(array2.get(i))){
+                    array1.remove(j);
+                    j--;
+                }
+            }
+        }*/
+
+       /* for(int i = 0; i < array1.size(); i++){
+            if(array2.contains(array1.get(i))){
+                array1.remove(i);
+                i--;
+            }
+        }*/
+
+        //array1.sort();
+
+
+        //System.out.println(array1.toString() + "\n");
+
+        MyList<String> list1 = new MyArrayList();
+        list1.add("a");
+        list1.add("b");
+        list1.add("c");
+        list1.add("d");
+
+        MyList<String> list2 = new MyLinkedList();
+        list2.add("a");
+        list2.add("b");
+        list2.add("c");
+        list2.add("d");
+
+        System.out.println(list1);
+        System.out.println(list2);
+
+
+        System.out.println(list1.equals(list2));
+        System.out.println(list1.hashCode());
+        System.out.println(list2.hashCode());
+    }
+}

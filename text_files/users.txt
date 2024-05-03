@@ -1,0 +1,3 @@
+bill_123, 12345, bill, 20_000
+hunter_2, cs_n1, max, 15_000
+jack321, java, jack, 25_000
