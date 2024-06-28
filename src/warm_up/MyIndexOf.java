@@ -49,7 +49,7 @@ public class MyIndexOf {
         if(str.length() == 0){
             System.out.println("The text is empty");
         } else{
-            char ch = str.charAt(0);
+            /*char ch = str.charAt(0);
             int maxPrev = 1;
             int  k = 0;
             for (int i = 1; i < str.length(); i++) {
@@ -58,18 +58,17 @@ public class MyIndexOf {
                     k = i;
                     break;
                 }
-            }
+            }*/
 
-            System.out.println(ch);
-            System.out.println(k);
-            System.out.println(maxPrev);
+            char ch = '\n';
+            int maxPrev = 0;
             char chPrev = ch;
             int max = 0;
-            for (int i = k; i < str.length(); i++) {
+            for (int i = 0; i < str.length(); i++) {
                 if(str.charAt(i) == ch) max++;
                 else {
                     if(max == 0){
-                        ch = str.charAt(k);
+                        ch = str.charAt(i);
                         max++;
                     } else{
                         if(max > maxPrev) {
